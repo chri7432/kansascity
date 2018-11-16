@@ -1,10 +1,15 @@
 body{
-  position:relative
+  position:relative;
+  background-color:#e7e4e2;
   }
+
+.navbar{
+  background-color:#8e8b89;
+}
 
 .overlay,.sideMenu{
   position:fixed;
-  bottom:0
+  bottom:0;
   }
 
 .overlay{
@@ -14,23 +19,23 @@ body{
   margin:auto;
   background-color:rgba(0,0,0,.5);
   z-index:998;
-  transition:all ease 0.2s
+  transition:all ease 0.2s;
   }
 
 .overlay.open{
   left:0;
-  right:0
+  right:0;
   }
 
 .sidebarNavigation{
   margin-bottom:0;
   z-index:999;
-  justify-content:flex-start
+  justify-content:flex-start;
   }
 
 .sidebarNavigation .leftNavbarToggler{
   margin-right:10px;
-  order:-1
+  order:-1;
   }
 
 .sideMenu{
@@ -42,16 +47,16 @@ body{
   z-index:999;
   max-width:80%;
   margin-bottom:0;
-  padding:1rem
+  padding:1rem;
   }
 
 .sideMenu.open{
   left:0;
   display:block;
-  overflow-y:auto
+  overflow-y:auto;
   }
 
 .sideMenu ul{
   margin:0;
-  padding:0 15px
+  padding:0 15px;
 }
