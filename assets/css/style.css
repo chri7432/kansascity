@@ -1,11 +1,6 @@
 body{
   position:relative;
-  background-color:#e7e4e2;
   }
-
-.navbar{
-  background-color:#8e8b89;
-}
 
 .overlay,.sideMenu{
   position:fixed;
