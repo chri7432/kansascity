@@ -2,10 +2,6 @@ body{
   position:relative
   }
 
-.overlay,.sideMenu{
-  position:fixed;
-  bottom:0
-  }
 
 .overlay{
   top:0;
