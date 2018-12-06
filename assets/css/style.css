@@ -4,3 +4,20 @@
   background-color: none;
   outline: none;
 }
+
+.container-fluid {
+  overflow: hidden;
+}
+
+
+.card, .card-body {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.fixed-bottom  {
+  padding: 0;
+}
